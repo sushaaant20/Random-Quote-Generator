@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap");
+@import url("https://css.gg/music-speaker.css");
+@import url("https://css.gg/copy.css");
+@import url("https://css.gg/twitter.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #5372f0;
+}
+.quote-content {
+  width: 605px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-content .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+.quote {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  font-weight: medium;
+}
+
+.quote-content .auth {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: right;
+}
+
+.quote-content .buttons {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.list li {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: left;
+}
+ul li:hover {
+  background-color: rgb(18, 54, 214);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.quote-content .buttons .new-quote {
+  margin-left: auto;
+  height: 27px;
+  width: 100px;
+  border: none;
+  background-color: white;
+}
+.quote-content .buttons .new-quote:hover {
+  background-color: rgb(55, 55, 233);
+  border-radius: 5px;
+  cursor: pointer;
+}
